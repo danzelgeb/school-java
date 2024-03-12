@@ -1,0 +1,12 @@
+1 class ZuweisungenAnVariablen {
+2 public static void main(String [] ignored) {
+3 System.out.println(0);
+4 int zero = 0;
+5 System.out.println(zero);
+6 int one = 1;
+7 int whatsThis = zero;
+8 System.out.println(whatsThis);
+9 whatsThis = one;
+10 System.out.println(whatsThis);
+11 }
+12 }
